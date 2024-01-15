@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Door</title>
+</head>
+<body>
+     <!-- door -->
+     <div class="door" id="door">
+      
+        <div class="row">
+            <div class="box">
+                <img src="img/door/1.jpg" alt="image">
+            </div>
+            <div class="box">
+                <img src="img/door/2.jpg" alt="image">
+            </div>
+            <div class="box">
+                <img src="img/door/3.jpg" alt="image">
+            </div>
+            <div class="box">
+                <img src="img/door/4.jpg" alt="image">
+            </div>
+            <div class="box">
+                <img src="img/door/5.jpg" alt="image">
+            </div>
+            <div class="box">
+                <img src="img/door/6.jpg" alt="image">
+            </div>
+            <div class="box">
+                <img src="img/door/7.jpg" alt="image">
+            </div>
+            <div class="box">
+                <img src="img/door/8.jpg" alt="image">
+            </div>
+            <div class="box">
+                <img src="img/door/9.jpg" alt="image">
+            </div>
+        </div>
+        <style>
+            .door .row{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
+   gap: 1rem;
+   margin: 6rem auto;
+   width: 70%;
+}
+.door .row .box{
+   position: relative;
+   overflow: hidden;
+}
+.door .row .box img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+        </style>
+      </div> 
+     <!-- door -->
+</body>
+</html>
